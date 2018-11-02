@@ -16,13 +16,21 @@ Each folder cooresponds to an specific topic with all source code privided and s
 **The hardest part is how to convert opencv Mat type in cpp to numpy ndarray and vice versa.**
 
 
+## Dependencies
+- GCC 4.x
+- python 3.x
+- opencv 2.x+
+- eigen3
+- numpy
+
+
 
 ## 1 extend python with c++
 
 - python_call_cpp
 - python_call_cpp_opencv_numpy
 
-## 2 extend c++ with python
+## 2 embed python in c++
 
 - cpp_call_python
 - cpp_call_python_numpy (eigen)
